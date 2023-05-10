@@ -1,7 +1,9 @@
+import AddFoodData from './components/AddFoodData';
+
 function App() {
   return (
-    <div>
-      Hello world!
+    <div className="container">
+      <AddFoodData />
     </div>
   );
 }

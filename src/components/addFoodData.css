@@ -1,0 +1,91 @@
+.heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-outer {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: auto;
+}
+
+.form-outer .form-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-inner input {
+  width: 99.5%;
+  height: 35px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline-color: #d59826;
+}
+
+.form-inner select {
+  width: 99.5%;
+  height: 43px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline-color: #d59826;
+}
+
+.form-inner textarea {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline-color: #d59826;
+  resize: none;
+}
+
+input::file-selector-button {
+  height: 100%;
+  width: 30%;
+}
+
+.form-inner label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form-inner button {
+  width: 30%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.form-inner button:hover {
+  background-color: #337736;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
